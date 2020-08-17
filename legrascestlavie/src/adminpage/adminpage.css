@@ -1,0 +1,29 @@
+body {
+    
+    background-image: url('https://pixelsmouvants.thiel.fr/2010/11/08/kaamelott-livre-v/vlcsnap-2010-11-08-00h12m32s145.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    }
+
+
+.abc {
+    text-align: center;
+    
+}
+
+.bcd {
+
+    text-align: center;
+}
+
+table,
+td {
+    border: 1px solid rgb(255, 255, 255);
+}
+
+thead,
+tfoot {
+    background-color: #333;
+    color: #fff;
+}

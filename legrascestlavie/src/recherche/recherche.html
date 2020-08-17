@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./recherche.css">
+    <title>recherche</title>
+</head>
+<body>
+    <a href="./connexion/connexion.html">
+        <input type="button" value="Se connecter" class=bouton>
+        </a>
+        <a href="./register/register.html">
+        <input type="button" value="S'enregistrer" class=bouton2>
+        </a>
+        <a href="./index.html">
+        <input type="button" value="recherche" class=bouton3>
+        </a>
+        <a href="./adminpage/adminpage.html">
+        <input type="button" value="adminpage" class=bouton4>
+        </a>
+    
+    <div class=a>
+        <h1>La taverne des disparus!</h1>
+    </div>
+    <div class=b>
+        <h4><p>Les mangeurs de graines n'ont pas leurs place ici!</p></h4>
+    </div>
+
+    <form  id="formrecherche">
+        <p style="color: azure;">
+            <label for="pseudo">pseudo :</label>
+            <input type="text" name="pseudo" id="pseudo" placeholder="Ex : enzo" size="30" maxlength="16" />
+            <br />
+        
+        </p>
+        <input type="submit" value="rechercher">
+    </form>
+
+    <table id="table_recherche">
+        <thead>
+            <tr>
+                <th colspan="2" style="color: cyan;">les meilleurs mangeurs</th>
+            </tr>
+        </thead>
+        <tbody style="color: chartreuse;">
+            <tr>
+                <td>email</td>
+                <td>ID</td>
+                <td>Pseudo</td>
+                <td>Nom</td>
+                <td>MDP</td>
+                <td>prenom</td>
+            </tr>
+            <tr>
+                
+            </tr>
+        </tbody>
+    </table>
+    <script type="text/javascript" src="./recherche.js"></script>
+</body>
+
+</html>
+

@@ -1,0 +1,55 @@
+.a {
+    text-align: center;
+}
+
+.karadoc {
+    width: 300px;
+}
+
+IMG.karadoc {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
+
+body {
+    
+background-image: url('https://pixelsmouvants.thiel.fr/2010/11/08/kaamelott-livre-v/vlcsnap-2010-11-08-00h12m32s145.png');
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+.bouton {
+
+    display: block;
+    border: 1px;
+    width: 100px;
+    margin-left: auto;
+}
+
+.bouton2 {
+
+    display: block;
+    border: 1px;
+    width: 100px;
+    margin-left: auto;
+    padding-top: 10px
+}
+
+.bouton3 {
+
+    display: block;
+    border: 1px;
+    width: 100px;
+    margin-left: auto;
+    padding-top: 10px
+}
+
+.bouton4 {
+
+    display: block;
+    border: 1px;
+    width: 100px;
+    margin-left: auto;
+    padding-top: 10px
+}
